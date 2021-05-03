@@ -13,6 +13,7 @@ class BlogTests(TestCase):
             email='test@email.com',
             password='secret'
         )
+
         self.post = Post.objects.create(
             title='A good title',
             body='Nice body content',
